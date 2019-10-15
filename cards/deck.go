@@ -43,6 +43,8 @@ func (d deck) print() {
 	}
 }
 
+// Return 2 slices --- one with handsize element for beginning and
+// the other with remaining cards
 func deal(d deck, handsize int) (deck, deck) {
 	return d[:handsize], d[handsize:]
 }
