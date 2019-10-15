@@ -3,13 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	// direct way to declare variable
-	// var card string = "Ace of Spades"
-
-	// newer and easier way
-	card := newCard()
-
-	fmt.Println(card)
+	deckOfCards := deck{"Ace of Diamonds", newCard()}
+	deckOfCards = append(deckOfCards, "King of Spades")
+	for i, card := range deckOfCards {
+		fmt.Println(i, card)
+	}
 }
 
 func newCard() string {
