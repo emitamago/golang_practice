@@ -4,11 +4,9 @@ func main() {
 	// create new deck of cards
 	deckOfCards := newDeckFromFile("my_first_deck")
 	deckOfCards.shuffle()
-	deckOfCards.print()
 
 	// // create hands and remaining deck of cards
-	// hand, remainingDeck := deal(deckOfCards, 5)
+	hand, _ := deal(deckOfCards, 5)
 
-	// hand.print()
-	// remainingDeck.print()
+	hand.print()
 }

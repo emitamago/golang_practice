@@ -34,10 +34,10 @@ func newDeck() deck {
 		"Queen",
 		"King"}
 
-	// Iterate over the slices and append to 52 invidual card strings
+	// Iterate over the slices and append to 48 invidual card strings
 	for _, suites := range cardSuites {
 		for _, value := range cardValue {
-			cards = append(cards, suites+" of "+value)
+			cards = append(cards, value+" of "+suites)
 		}
 	}
 	return cards
