@@ -3,6 +3,7 @@ package main
 func main() {
 	// create new deck of cards
 	deckOfCards := newDeckFromFile("my_first_deck")
+	deckOfCards.shuffle()
 	deckOfCards.print()
 
 	// // create hands and remaining deck of cards
