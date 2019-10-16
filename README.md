@@ -2,7 +2,7 @@
 - This is a personal project to learn Go language.
 - Following Udemy Go tutorial for instruction.
 
-### Motive
+### Motivation
 I have learn couple dynamic typed language such as Javascript and Python. I learned some benefit of those languages but 
 also limitations. 
 
